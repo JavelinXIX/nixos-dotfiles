@@ -19,7 +19,7 @@
 
 		users.users.tomoya-f = {
 		isNormalUser = true;
-		extraGroups = ["wheel", "docker"];
+		extraGroups = ["wheel" "docker"];
 		home = "/home/tomoya-f";
 		shell = pkgs.zsh;
 	};
