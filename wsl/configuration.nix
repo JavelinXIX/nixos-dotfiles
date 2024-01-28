@@ -41,6 +41,9 @@
 		tmux = {
 			enable = true;
 		};
+        gnumake = {
+            enabled = true;
+        };
 	};
 
 	# enabled system packages
