@@ -41,15 +41,13 @@
 		tmux = {
 			enable = true;
 		};
-        gnumake = {
-            enabled = true;
-        };
 	};
 
 	# enabled system packages
 	environment.systemPackages = with pkgs; [
 		unzip
 		p7zip
+        gnumake
 	];
  
 	# Docker
