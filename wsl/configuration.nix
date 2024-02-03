@@ -50,6 +50,7 @@
         gnumake
         rustc
         cargo
+        file
 	];
  
 	# Docker
