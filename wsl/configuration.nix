@@ -41,12 +41,6 @@
 		tmux = {
 			enable = true;
 		};
-        rustc = {
-            enabled = true;
-        };
-        cargo = {
-            enabled = true;
-        };
 	};
 
 	# enabled system packages
@@ -54,6 +48,8 @@
 		unzip
 		p7zip
         gnumake
+        rustc
+        cargo
 	];
  
 	# Docker
