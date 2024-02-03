@@ -41,6 +41,12 @@
 		tmux = {
 			enable = true;
 		};
+        rustc = {
+            enabled = true;
+        };
+        cargo = {
+            enabled = true;
+        };
 	};
 
 	# enabled system packages
