@@ -60,6 +60,9 @@
 	    setSocketVariable = true;
     };
 
+	fonts.packages = with pkgs; [
+		nerdfonts
+	];
 
 	nix = {
 		settings = {
