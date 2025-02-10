@@ -21,7 +21,7 @@
         set cursorline
         set nowritebackup
         set nobackup
-        set shell=/usr/bin/zsh
+        set shell=zsh
         
         "pakage config
 	packadd! nvim-tree.lua
